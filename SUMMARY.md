@@ -15,5 +15,5 @@
 - [法务战略](./law/README.md)
 - [行政管理战略](./administration/README.md)
   - [线下办公室](./administration/office/README.md)
-- [核心团队股权分配](./share/README.md)
+- [股权分配](./share/README.md)
 - [融资战略](./investor/README.md)
