@@ -1,0 +1,8 @@
+format: jb-book
+root: README.md
+chapters: 
+  - file: business/README.md
+    sections: 
+      - file: business/qtclass/README.md
+      - file: business/qtcloud/README.md
+  - file: tech/README.md
