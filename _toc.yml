@@ -1,0 +1,10 @@
+format: jb-book
+root: index.md
+chapters:
+  - file: public_relation/README.md
+    sections:
+      - file: public_relation/cloud_providers/README.md
+      - file: public_relation/open_source_providers/README.md
+        sections:
+          - file: public_relation/open_source_providers/im.md
+      - file: public_relation/developers/README.md
