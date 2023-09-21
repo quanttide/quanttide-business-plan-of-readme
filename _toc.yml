@@ -1,10 +1,9 @@
 format: jb-book
 root: index.md
 chapters:
-  - file: public_relation/README.md
+  - file: risks/README.md
     sections:
-      - file: public_relation/cloud_providers/README.md
-      - file: public_relation/open_source_providers/README.md
-        sections:
-          - file: public_relation/open_source_providers/im.md
-      - file: public_relation/developers/README.md
+      - file: risks/tech_risks.md
+      - file: risks/market_risks.md
+      - file: risks/finance_risks.md
+      - file: risks/management_risks.md
