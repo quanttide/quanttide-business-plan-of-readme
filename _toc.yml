@@ -1,6 +1,8 @@
 format: jb-book
 root: index.md
 chapters:
+  - file: businesses/README.md
+  - file: markets/README.md
   - file: risks/README.md
     sections:
       - file: risks/tech_risks.md
