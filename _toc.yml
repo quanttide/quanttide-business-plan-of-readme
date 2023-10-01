@@ -1,10 +1,13 @@
 format: jb-book
 root: index.md
 chapters:
+  - file: businesses/README.md
   - file: products/README.md
     sections:
-    - url: https://admin.quanttide.com/wiki/qtcloud-data-product-design-docs/
-      title: 数据云
+      - file: products/qtresearch/README.md
+      - file: products/qtcloud-pass/README.md
+        sections:
+          - file: products/qtcloud-pass/qtcloud-data.md
   - file: markets/README.md
   - file: risks/README.md
     sections:
