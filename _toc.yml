@@ -9,6 +9,12 @@ chapters:
         sections:
           - file: products/qtcloud-pass/qtcloud-data.md
   - file: markets/README.md
+    sections:
+      - file: markets/operations.md
+      - file: markets/pr.md
+      - file: markets/brands.md
+      - file: markets/marketing.md
+      - file: markets/sales.md
   - file: risks/README.md
     sections:
       - file: risks/tech_risks.md
