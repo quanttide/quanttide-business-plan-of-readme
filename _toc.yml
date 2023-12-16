@@ -2,12 +2,14 @@ format: jb-book
 root: index.md
 chapters:
   - file: businesses/README.md
+    sections:
+      - file: businesses/qtclass.md
   - file: products/README.md
     sections:
       - file: products/qtresearch/README.md
-      - file: products/qtcloud-pass/README.md
+      - file: products/qtcloud/README.md
         sections:
-          - file: products/qtcloud-pass/qtcloud-data.md
+          - file: products/qtcloud/qtcloud-data.md
   - file: markets/README.md
     sections:
       - file: markets/operations.md
