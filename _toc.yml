@@ -1,6 +1,12 @@
 format: jb-book
 root: index.md
 chapters:
+  - file: general/README.md
+    sections:
+      - file: general/missions.md
+      - file: general/visions.md
+      - file: general/values.md
+      - file: general/methods.md
   - file: businesses/README.md
     sections:
       - file: businesses/qtclass.md
