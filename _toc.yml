@@ -9,6 +9,7 @@ chapters:
       - file: general/methods.md
   - file: businesses/README.md
     sections:
+      - file: businesses/qtcloud.md
       - file: businesses/qtclass.md
   - file: products/README.md
     sections:
