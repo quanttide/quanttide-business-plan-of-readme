@@ -160,21 +160,23 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../index.html">
-                    引言
+                    简介
                 </a>
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../general/README.html">概述</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../general/README.html">使命、愿景、价值观与方法论</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../general/missions.html">使命</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../general/visions.html">愿景</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../general/values.html">价值观</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../general/methods.html">量潮方法论</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../general/methods.html">方法论</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../businesses/README.html">商业模式</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../businesses/qtcloud.html">云计算业务</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../businesses/qtecon.html">经济咨询业务</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../businesses/qtclass.html">课程业务</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../businesses/qtcloud.html">云计算业务</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../businesses/qtopen.html">开源业务</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../products/README.html">产品与服务</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
@@ -325,7 +327,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -341,6 +345,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">品牌定义</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -354,6 +366,16 @@ document.write(`
 <h1>品牌管理<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h1>
 <p>社区是品牌形象的重要承载者，因此在社区中进行品牌管理非常关键。确保品牌的一致性和准确性，并在社区中传达品牌的核心价值和使命。同时，与社区成员建立真诚的关系，回应他们的需求和反馈，增加品牌的信任和认可度。还可以通过社区活动和合作伙伴关系等方式，扩大品牌的影响力和可见度。</p>
 <p>建立品牌和知名度：在竞争激烈的数据工程领域，建立强大的品牌和知名度是吸引用户的重要因素。我们可以通过参与行业会议和展览、发表技术文章、与行业领袖进行合作等方式来提高品牌曝光度。</p>
+<section id="id2">
+<h2>品牌定义<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>量潮经济咨询（qtecon）：经济咨询业务，包括量潮科研咨询（qtresearch/qtecon-research）、量潮创业咨询（暂定qtecon-startups）等。</p></li>
+<li><p>量潮课堂（qtclass）：课程业务。</p></li>
+<li><p>量潮云（qtcloud）：云计算业务，包括量潮PaaS（qtcloud-pass）和量潮SaaS（qtcloud-saas）。</p></li>
+<li><p>量潮开源（qtopen）：开源业务。</p></li>
+<li><p>量潮学术（qtacademics）：学术研究。</p></li>
+</ul>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -411,7 +433,20 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">品牌定义</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
