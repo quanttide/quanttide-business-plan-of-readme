@@ -9,10 +9,11 @@ chapters:
       - file: general/methods.md
   - file: businesses/README.md
     sections:
-      - file: businesses/qtecon.md
+      - file: businesses/qtresearch.md
       - file: businesses/qtclass.md
       - file: businesses/qtcloud.md
       - file: businesses/qtopen.md
+      - file: businesses/qtecon.md
   - file: products/README.md
     sections:
       - file: products/qtresearch/README.md
