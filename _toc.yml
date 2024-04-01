@@ -1,19 +1,13 @@
 format: jb-book
 root: index.md
 chapters:
-  - file: general/README.md
-    sections:
-      - file: general/missions.md
-      - file: general/visions.md
-      - file: general/values.md
-      - file: general/methods.md
   - file: businesses/README.md
     sections:
       - file: businesses/qtresearch.md
       - file: businesses/qtclass.md
       - file: businesses/qtcloud.md
       - file: businesses/qtopen.md
-      - file: businesses/qtecon.md
+      - file: businesses/qtconsult.md
   - file: products/README.md
     sections:
       - file: products/qtresearch/README.md
@@ -27,9 +21,24 @@ chapters:
       - file: markets/brands.md
       - file: markets/marketing.md
       - file: markets/sales.md
-  - file: risks/README.md
+  - file: governance/README.md
     sections:
-      - file: risks/tech_risks.md
-      - file: risks/market_risks.md
-      - file: risks/finance_risks.md
-      - file: risks/management_risks.md
+      - file: governance/strategies/README.md
+      - file: governance/innovations/README.md
+        sections:
+          - file: governance/innovations/products.md
+          - file: governance/innovations/courses.md
+      - file: governance/talents/README.md
+      - file: governance/risks/README.md
+        sections:
+          - file: governance/risks/tech_risks.md
+          - file: governance/risks/market_risks.md
+          - file: governance/risks/finance_risks.md
+          - file: governance/risks/management_risks.md
+  - file: culture/README.md
+    sections:
+      - file: culture/missions.md
+      - file: culture/visions.md
+      - file: culture/characters.md
+      - file: culture/values.md
+      - file: culture/methods.md
