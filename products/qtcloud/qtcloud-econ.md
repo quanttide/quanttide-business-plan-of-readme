@@ -8,6 +8,9 @@
 
 经济建模的原始设想是要做成算法上生产的，做类似的探索性分析似乎也不是不可以。不过产品形态会同时具有PaaS和SaaS属性，更偏向SaaS一些了。
 
+“Economics as a Service”，概念来源于:https://www.youtube.com/watch?v=N4MCVo6lb58我们可以叫 Economic model as a service,是不是适合我们的定位待评估
+
+
 ## 分层
 
 从底层到顶层。
